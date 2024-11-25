@@ -33,3 +33,7 @@
   --text-md: normal 14px/1.4 var(--maven-pro);
 }
 
+body {
+  background-color: var(--gray-200);
+}
+

@@ -1,0 +1,41 @@
+header {
+  margin-inline: auto;
+  margin-top: 120px;
+  justify-content: center;
+
+  .user {
+    gap: 56px;
+  }
+
+  .profile-pic {
+    justify-content: center;
+    align-items: center;
+
+    &::before {
+      position: absolute;
+      content: "";
+      width: 96px;
+      height: 96px;
+      border: 2px solid var(--red);
+      border-radius: 50%;
+      z-index: -1;
+    }
+  }
+
+  .avatar img:first-child {
+    width: 87px;
+    object-fit: cover;
+  }
+
+  .main-text {
+    gap: 20px;
+  }
+
+  h3 {
+    font: var(--subtitle);
+    color: var(--gray-500);
+    span {
+      color: var(--red);
+    }
+  }
+}
