@@ -21,4 +21,10 @@
   --gray-500: #C0C4CE;
   --gray-600: #E2E4E9;
 
+  /* Fonts */
+  --asap: "Asap", sans-serif;
+  --inconsolata: "Inconsolata", serif;
+  --maven-pro: "Maven Pro", serif;
+
+
 }
