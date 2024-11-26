@@ -3,9 +3,25 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
   width: 1366px;
   height: 787px;
-  justify-content: center;
+  padding-block: 128px 200px;
+  padding-inline: 120px;
+  justify-content: flex-start;
   gap: 48px;
-  
+
+  header {
+    gap: 8px;
+    span {
+      color: var(--purple);
+    }
+    h2 {
+      color: var(--gray-600);
+    }
+    p {
+      font: var(--text-md);
+      color: var(--gray-500);
+    }
+  }
 }
