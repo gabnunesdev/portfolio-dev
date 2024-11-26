@@ -1,0 +1,18 @@
+#tech-sections {
+  flex-direction: row;
+  gap: 16px;
+}
+
+.tag {
+  flex-direction: row;
+  gap: 8px;
+  background-color: var(--gray-300);
+  border-radius: 999px;
+  padding: 8px 16px;
+  color: var(--gray-500);
+  font: var(--text-md);
+  margin-top: 80px;
+}
+
+
+

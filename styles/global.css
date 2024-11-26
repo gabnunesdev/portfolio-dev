@@ -30,10 +30,13 @@
   --title-sm: bold 16px/1.2 var(--asap);
   --subtitle: normal 20px/1.2 var(--inconsolata);
   --text-md: normal 16px/1.4 var(--maven-pro);
-  --text-md: normal 14px/1.4 var(--maven-pro);
+  --text-sm: normal 14px/1.4 var(--maven-pro);
 }
 
 body {
   background-color: var(--gray-200);
+  width: 1366px;
+  margin: auto;
+  
 }
 

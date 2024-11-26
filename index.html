@@ -11,19 +11,22 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/index.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
   </head>
   <body>
     <header id="intro" class="flex">
       <main class="info">
-        <section id="main-header">
+        <section id="main-header" class="flex">
           <div class="user flex flex-column center-align">
             <div class="avatar flex">
               <div class="profile-pic flex">
                 <img src="assets/images/profile-pic.png" alt="" />
+                <img src="assets/icons/Code.svg" alt=""
+                 class="code-icon">
               </div>
             </div>
 
-            <div class="main-text flex flex-column center-align">
+            <div class="main-text flex flex-column">
               <div class="title flex center-align flex-column">
                 <h3>
                   Hello World! Meu nome é <span>Martina Santos </span> e sou
@@ -37,11 +40,38 @@
                 desafios complexos.
               </p>
             </div>
-            
           </div>
         </section>
-        <section id="main-footer"></section>
       </main>
+      <section id="tech-sections" class="flex">
+        <div class="tag flex">
+          <img src="assets/icons/GitHub.svg" alt="Logo do GitHub">
+          <span>GitHub</span>
+        </div>
+        <div class="tag flex html-icon">
+          <img src="assets/icons/HTML.svg" alt="Logo do HTML">
+          <span>HTML</span>
+        </div>
+        <div class="tag flex css-icon">
+          <img src="assets/icons/CSS.svg" alt="Logo do CSS">
+
+
+          <span>CSS</span>
+        </div>
+        <div class="tag flex">
+          <img src="assets/icons/JavaScript.svg" alt="Logo do JavaScript">
+          <span>JavaScript</span>
+        </div>
+        <div class="tag flex">
+          <img src="assets/icons/React.svg" alt="Logo do React">
+          <span>React</span>
+        </div>
+        <div class="tag flex">
+          <img src="assets/icons/Node.js.svg" alt="Logo do GitHub">
+          <span>Node.js</span>
+        </div>
+        
     </header>
+    </section>
   </body>
 </html>
