@@ -1,5 +1,5 @@
 #projects {
-  gap:56px;
+  gap: 56px;
   margin-block: 72px 144px;
   margin-inline: 120px;
 
@@ -27,7 +27,7 @@
   height: 280px;
   flex-direction: column;
   padding: 12px;
-  background-color:var(--gray-200);
+  background-color: var(--gray-200);
   border-radius: 12px;
 
   img {
