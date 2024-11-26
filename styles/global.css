@@ -57,6 +57,11 @@ h2 {
   color: var(--gray-500);
 }
 
+h3 {
+  font: var(--text-md);
+  color: var(--gray-500);
+}
+
 span {
   font: var(--subtitle);
   color: var(--red);

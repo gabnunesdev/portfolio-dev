@@ -1,0 +1,11 @@
+#footer {
+  background-image: url(/assets/images/Background_Contacts.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1366px;
+  height: 787px;
+  justify-content: center;
+  gap: 48px;
+  
+}
