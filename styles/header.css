@@ -70,3 +70,14 @@
     text-align: center;
   }
 }
+
+.arrow {
+  margin-top: 94px;
+  cursor: pointer;
+  img {
+    width: 23px;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+  }
+}
+
