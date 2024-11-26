@@ -1,0 +1,50 @@
+#projects {
+  gap:56px;
+  margin-block: 72px 144px;
+  margin-inline: 120px;
+
+  header {
+    h3 {
+      font: var(--subtitle);
+      color: var(--red);
+    }
+
+    h2 {
+      font: var(--title-md);
+      color: var(--gray-600);
+      margin-top: 8px;
+    }
+  }
+}
+
+#projects .main-section {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.card {
+  max-width: 330px;
+  height: 280px;
+  flex-direction: column;
+  padding: 12px;
+  background-color:var(--gray-200);
+  border-radius: 12px;
+
+  img {
+    border-radius: 8px;
+  }
+  h2 {
+    font: var(--title-sm);
+    color: var(--gray-600);
+    margin-top: 20px;
+  }
+  p {
+    font: var(--text-sm);
+    color: var(--gray-500);
+    margin-top: 8px;
+  }
+
+  &:hover {
+    outline: 1.5px solid var(--gray-400);
+  }
+}
