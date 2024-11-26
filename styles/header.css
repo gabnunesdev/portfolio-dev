@@ -1,9 +1,5 @@
 #intro {
-<<<<<<< HEAD
   background-image: url(/assets/images/bg-intro.png);
-=======
-  background-image: url('./assets/images/Background_Intro.png');
->>>>>>> 9e7c7b85ea4b088391e2d2a3bd022b35a3083151
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -62,8 +58,6 @@
     font: var(--subtitle);
     color: var(--gray-500);
   }
-
-
 
   p {
     max-width: 680px;
