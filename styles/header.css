@@ -29,7 +29,6 @@
     padding: 5px;
     border: 2px solid var(--red);
     border-radius: 50%;
-
   }
 
   .code-icon {
@@ -55,13 +54,12 @@
     color: var(--gray-600);
   }
 
-  h3 {
+  h2 {
     font: var(--subtitle);
     color: var(--gray-500);
-    span {
-      color: var(--red);
-    }
   }
+
+
 
   p {
     max-width: 680px;
@@ -80,4 +78,3 @@
     aspect-ratio: 1/1;
   }
 }
-

@@ -1,0 +1,43 @@
+#services {
+  padding-block: 88px 120px;
+  background-color: var(--gray-100);
+  gap: 56px;
+
+  header {
+    h2 {
+      font: var(--title-md);
+      color: var(--gray-600);
+      margin-top: 8px;
+    }
+  }
+
+  .grid-services {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .card-services {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 280px;
+    max-height: 155px;
+    padding-block: 20px;
+    padding-inline: 20px;
+    outline: 2px solid var(--gray-200);
+    border-radius: 12px;
+
+    img {
+      width: 48px;
+      object-fit: cover;
+    }
+
+    h2 {
+      margin-top: 20px;
+      font: var(--title-sm);
+    }
+
+    p {
+      padding-top: 8px;
+    }
+  }
+}

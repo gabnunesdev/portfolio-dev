@@ -38,10 +38,31 @@ body {
   width: 1366px;
   margin: auto;
   color: var(--gray-500);
-  
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   font: inherit;
 }
 
+h1 {
+  font: var(--title-lg);
+  color: var(--gray-600);
+}
+
+h2 {
+  font: var(--title-md);
+  color: var(--gray-500);
+}
+
+span {
+  font: var(--subtitle);
+  color: var(--red);
+}
+
+p {
+  font: var(--text-sm);
+  color: var(--gray-400);
+}
