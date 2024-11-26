@@ -19,6 +19,10 @@
     font: var(--text-md);
     color: var(--gray-500)
   }
+
+  &:hover {
+    outline: 1.5px solid var(--blue);
+  }
 }
 
 
